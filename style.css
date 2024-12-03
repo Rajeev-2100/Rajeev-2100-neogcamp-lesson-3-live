@@ -41,8 +41,8 @@ p{
 .primary-link {
   color: var(--primary-color);
   border-radius: 1rem;
-  padding: 1Qrem;
-  background-color: lightsteelblue;
+  padding: 1rem;
+  background-color: #a5f3fc;
 }
 
 .links {
@@ -54,9 +54,18 @@ hr{
   margin: 2rem 0;
 }
 
+#non-bullet-pts {
+  list-style: none;
+}
 
+#list-non-bullet{
+  list-style: none;
+}
 
-
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
 
 
 
