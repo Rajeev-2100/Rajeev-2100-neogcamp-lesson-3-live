@@ -3,7 +3,8 @@
 
 :root {
     --primary-color:#6d28d9;
-    --dark-gray-color: var(--dark-gray-color)
+    --dark-gray-color: #374151;
+    --off-white: #e5e7eb;
 }
 body{
     font-family: 'Montserrat',sans-serif;
@@ -106,9 +107,21 @@ hr{
 .hero .hero-heading .hero-heading-inverted{
     /* padding-top: 1rem; */
     font-size: xx-large;
-        color: var(--primary-color);
+    color: var(--primary-color);
 }
 
+/* section */
+.section{
+    padding: 2rem
+}
+
+.section h2{
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
 
 
 
