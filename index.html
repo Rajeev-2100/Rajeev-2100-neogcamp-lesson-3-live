@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>component library</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>component library</h1>
+    <h1 id="lib-header">component library</h1>
     <p><strong>Adarsh Balika </strong>is attending neog.camp and is currently completing levelZero one weekend and
         assignment at a time.</p>
 
@@ -23,36 +23,36 @@
 
     <h2>@typography</h2>
 
-    <h1>The bigges heading</h1>
+    <h1>The is the biggest heading</h1>
 
-    <h2>The second biggest heading</h2>
+    <h2>The is the second biggest heading</h2>
 
     <p>This is normal text. Long running text would look like this on your website. This will auto fold based on the
         width</p>
 
     <small>This is relatively smaller text</small>
-
+    <p>This paragraph will have a<strong> bold </strong>text</p>
     <hr>
 
     <h2>@containers</h2>
 
-    <h3 class="container">fluid container</h3>
+    <h3>fluid container</h3>
 
-    <p class="container-fluid">This is going to be a fluid container. It will go full width of page. With some margin.
+    <p class=" container container-fluid">This is going to be a fluid container. It will go full width of page. With some margin.
     </p>
 
-    <h3 class="container">center container</h3>
+    <h3>center container</h3>
 
-    <p class="container-center">This is going to be a center container. It will go till a given width and center
+    <p class="container container-center">This is going to be a center container. It will go till a given width and center
         content.</p>
 
     <hr>
 
     <h2>@links</h2>
 
-    <a href="#" class="links primary-link">Primary link</a>
+    <a href="#" class="links link-primary">Primary link</a>
 
-    <a href="#" class="links primary-link">Secondary link</a>
+    <a href="#" class="links link-secondary">Secondary link</a>
 
     <br>
     <hr>
@@ -65,7 +65,7 @@
     <p>We don't want to show bullets in unordered list. We'll remove that with CSS.</p>
     <p>This list will not have the bullet point</p>
 
-    <ul id="non-bullet-pts">
+    <ul id="list-non-bullet">
         <li>item One</li>
         <li>item two</li>
         <li>item three</li>
@@ -77,36 +77,36 @@
     <p>Instend of going in a new row, we will create a list which will take columns.</p>
 
     <ol id="list-non-bullet">
-        <li class="list-item-inline">item one</li>
-        <li class="list-item-inline">item two</li>
-        <li class="list-item-inline">item three</li>
-        <li class="list-item-inline">item four</li>
+        <li class="list-item-inline">Inline item one</li>
+        <li class="list-item-inline">Inline item two</li>
+        <li class="list-item-inline">Inline item three</li>
+        <li class="list-item-inline">Inline item four</li>
     </ol>
 
     <h3>reverse ordered lists</h3>
 
     <p>counting of will go reverse for this list</p>
-    <ol>
-        <li>1. chai</li>
-        <li>2. coffee</li>
-        <li>3. soft drink</li>
+    <ol reversed>
+        <li>chai</li>
+        <li>coffee</li>
+        <li>soft drink</li>
     </ol>
 
     <hr>
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li id="list-item-inline">
+                <a class="link link-active" href="/">home</a>
             </li>
-            <li>
-                <a href=".">products</a>
+            <li id="list-item-inline">
+                <a class="link" href="/">products</a>
             </li>
-            <li>
-                <a href="/">about</a>
+            <li id="list-item-inline">
+                <a class="link" href="/">about</a>
             </li>
         </ul>
     </nav>
@@ -162,5 +162,5 @@
 
 
 </body>
-
+<!-- * learn about font sans -->
 </html>

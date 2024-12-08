@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color:#6d28d9;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+    /* font-weight: bolder; */
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/* * container */
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.container-fluid{
+    padding: 0rem 1rem;
+}
+ 
+/* * links */
+
+.links{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+/* * learn about look into BEM naming convetion to CSS */
+
+/* list */
+
+
+.list-non-bullet{
+    list-style: none;
+}
+
+#list-item-inline{
+    padding: 0rem 0.5rem;
+    display: inline;
+}
+
+/* navigation */
+
+.navigation{
+    background-color: var(--primary-color);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    /* border-top-right-radius: 50%; */
+}
+
+.navigation .link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+
+.navigation .nav-active{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
