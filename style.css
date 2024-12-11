@@ -7,8 +7,10 @@
     --off-white: #e5e7eb;
 }
 body{
-    font-family: 'Montserrat',sans-serif;
-    /* font-weight: bolder; */
+    font-family: "Montserrat", sans-serif;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
 }
 
 hr{
@@ -76,6 +78,11 @@ hr{
     /* border-top-right-radius: 50%; */
 }
 
+.navigation .nav-pills {
+    text-align: right;
+    margin: 0.6rem 1rem;
+}
+
 .navigation .link {
     color: white;
     text-decoration: none;
@@ -124,6 +131,29 @@ hr{
 }
 
 
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;   
+    border-top-right-radius: 1rem;
+}
+
+.footer > .social-links{
+    color: red;
+    /* display: flex;
+    justify-content: center;
+    gap: 2rem; */
+}
+
+.footer .link{
+    color:white; 
+    display: inline;
+    text-decoration: none;
+} 
+.footer ul {
+    padding-inline-start: 0px;
+}
 
 
 
@@ -140,12 +170,4 @@ hr{
 
 
 
-
-
-
-
-
-
-
-
-
+ 
